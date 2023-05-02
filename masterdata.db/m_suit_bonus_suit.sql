@@ -1,0 +1,31 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_suit_bonus_suit(
+  suit_bonus_master_id INTEGER NOT NULL,
+  suit_master_id INTEGER NOT NULL,
+  PRIMARY KEY (suit_bonus_master_id, suit_master_id),
+  FOREIGN KEY (suit_bonus_master_id) REFERENCES m_suit_bonus(id),
+  FOREIGN KEY (suit_master_id) REFERENCES m_suit(id)
+);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320116);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320216);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320316);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320416);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320516);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320616);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320716);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320816);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,320916);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,321015);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,321103);
+INSERT INTO m_suit_bonus_suit VALUES(21102301,321203);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300115);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300215);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300315);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300415);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300515);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300615);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300715);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300815);
+INSERT INTO m_suit_bonus_suit VALUES(21122001,300913);
+COMMIT;

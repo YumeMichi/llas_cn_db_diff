@@ -1,0 +1,70 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_lesson_voice_finish_drop_content_lot(
+  member_master_id INTEGER NOT NULL,
+  rarity INTEGER NOT NULL,
+  group_id INTEGER NOT NULL,
+  PRIMARY KEY (member_master_id, rarity),
+  FOREIGN KEY (member_master_id) REFERENCES m_member(id)
+);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(210,1,121015);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(210,3,121016);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(211,1,121115);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(211,3,121116);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(212,1,121215);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(212,3,121216);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(1,1,100115);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(2,1,100215);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(3,1,100315);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(4,1,100415);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(5,1,100515);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(6,1,100615);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(7,1,100715);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(8,1,100815);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(9,1,100915);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(101,1,110115);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(102,1,110215);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(103,1,110315);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(104,1,110415);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(105,1,110515);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(106,1,110615);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(107,1,110715);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(108,1,110815);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(109,1,110915);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(201,1,120115);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(202,1,120215);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(203,1,120315);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(204,1,120415);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(205,1,120515);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(206,1,120615);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(207,1,120715);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(208,1,120815);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(209,1,120915);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(1,3,100116);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(2,3,100216);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(3,3,100316);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(4,3,100416);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(5,3,100516);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(6,3,100616);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(7,3,100716);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(8,3,100816);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(9,3,100916);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(101,3,110116);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(102,3,110216);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(103,3,110316);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(104,3,110416);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(105,3,110516);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(106,3,110616);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(107,3,110716);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(108,3,110816);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(109,3,110916);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(201,3,120116);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(202,3,120216);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(203,3,120316);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(204,3,120416);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(205,3,120516);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(206,3,120616);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(207,3,120716);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(208,3,120816);
+INSERT INTO m_lesson_voice_finish_drop_content_lot VALUES(209,3,120916);
+COMMIT;

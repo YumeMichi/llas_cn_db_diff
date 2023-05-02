@@ -1,0 +1,50 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_suit_view(
+  suit_master_id INTEGER NOT NULL,
+  view_status INTEGER NOT NULL,
+  model_asset_path TEXT NOT NULL,
+  PRIMARY KEY (suit_master_id, view_status),
+  FOREIGN KEY (suit_master_id) REFERENCES m_suit(id)
+);
+INSERT INTO m_suit_view VALUES(102091001,2,'Ff}');
+INSERT INTO m_suit_view VALUES(102092001,2,'?r)');
+INSERT INTO m_suit_view VALUES(402092001,2,'M(z');
+INSERT INTO m_suit_view VALUES(302092001,2,'Qes');
+INSERT INTO m_suit_view VALUES(302093001,2,'-k}');
+INSERT INTO m_suit_view VALUES(302093002,2,'[Uc');
+INSERT INTO m_suit_view VALUES(402092002,2,'Y7{');
+INSERT INTO m_suit_view VALUES(320901,2,':v]');
+INSERT INTO m_suit_view VALUES(320902,2,'V+m');
+INSERT INTO m_suit_view VALUES(402093001,2,'YoG');
+INSERT INTO m_suit_view VALUES(402092003,2,'((f');
+INSERT INTO m_suit_view VALUES(202093001,2,'Ukh');
+INSERT INTO m_suit_view VALUES(302092002,2,'K{\');
+INSERT INTO m_suit_view VALUES(402092004,2,'0rH');
+INSERT INTO m_suit_view VALUES(402093002,2,'Q#$');
+INSERT INTO m_suit_view VALUES(402092005,2,'$M5');
+INSERT INTO m_suit_view VALUES(402093003,2,'+0i');
+INSERT INTO m_suit_view VALUES(202093002,2,'3zK');
+INSERT INTO m_suit_view VALUES(320903,2,'aac');
+INSERT INTO m_suit_view VALUES(320904,2,'azv');
+INSERT INTO m_suit_view VALUES(320905,2,'z`R');
+INSERT INTO m_suit_view VALUES(320906,2,'5~X');
+INSERT INTO m_suit_view VALUES(320907,2,'>''"');
+INSERT INTO m_suit_view VALUES(320908,2,'ih<');
+INSERT INTO m_suit_view VALUES(202093101,2,'Ukh');
+INSERT INTO m_suit_view VALUES(320909,2,'2q,');
+INSERT INTO m_suit_view VALUES(320911,2,';)^');
+INSERT INTO m_suit_view VALUES(202093102,2,'3zK');
+INSERT INTO m_suit_view VALUES(402092006,2,'2`l');
+INSERT INTO m_suit_view VALUES(320913,2,'m\s');
+INSERT INTO m_suit_view VALUES(402093004,2,'j-,');
+INSERT INTO m_suit_view VALUES(320914,2,'sgs');
+INSERT INTO m_suit_view VALUES(402092007,2,'W]Y');
+INSERT INTO m_suit_view VALUES(402093005,2,'%Zw');
+INSERT INTO m_suit_view VALUES(320916,2,'$EZ');
+INSERT INTO m_suit_view VALUES(320917,2,'6CH');
+INSERT INTO m_suit_view VALUES(320918,2,'".~');
+INSERT INTO m_suit_view VALUES(302093003,2,'Yk&');
+INSERT INTO m_suit_view VALUES(302093103,2,'Yk&');
+INSERT INTO m_suit_view VALUES(320919,2,'Xp6');
+COMMIT;

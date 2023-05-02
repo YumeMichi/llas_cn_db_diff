@@ -1,0 +1,53 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_present_route_type_setting(
+  route_type INTEGER NOT NULL,
+  description_default TEXT NOT NULL,
+  description_base_1 TEXT,
+  description_base_2 TEXT,
+  description_base_3 TEXT,
+  description_base_4 TEXT,
+  description_base_5 TEXT,
+  PRIMARY KEY (route_type)
+);
+INSERT INTO m_present_route_type_setting VALUES(1,'k.m_present_route_setting_description_gacha_default','k.m_present_route_setting_description_gacha_base_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(2,'k.m_present_route_setting_description_admin_present_default','k.m_present_route_setting_description_admin_present_1','k.m_present_route_setting_description_admin_present_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(3,'k.m_present_route_setting_description_login_bonus_default','k.m_present_route_setting_description_login_bonus_base_1','k.m_present_route_setting_description_login_bonus_base_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(4,'k.m_present_route_setting_description_special_login_bonus_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(5,'k.m_present_route_setting_description_gift_box_default',NULL,'k.m_present_route_setting_description_gift_box_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(6,'k.m_present_route_setting_description_event_marathon_point_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(7,'k.m_present_route_setting_description_item_full_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(8,'k.m_present_route_setting_description_love_level_up_default','k.m_present_route_setting_description_love_level_up_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(9,'k.m_present_route_setting_description_retry_gacha_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(10,'k.m_present_route_setting_description_shop_exchange_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(11,'k.m_present_route_setting_description_shop_event_exchange_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(12,'k.m_present_route_setting_description_gps_present_default','k.m_present_route_setting_description_gps_present_base_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(13,'k.m_present_route_setting_description_school_idol_festiva_id_reward',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(14,'k.m_serial_code_setting_description_serial_code_default','k.m_serial_code_setting_description_serial_code_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(15,'k.m_present_route_setting_description_event_marathon_ranking_reward_default',NULL,'k.m_present_route_setting_description_event_marathon_ranking_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(16,'k.m_present_route_setting_description_mission_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(17,'k.m_present_route_setting_description_tutorial_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(18,'k.m_present_route_setting_description_story_main_default',NULL,'k.m_present_route_setting_description_story_main_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(19,'k.m_present_route_setting_description_shop_item_full_default','k.m_present_route_setting_description_shop_item_full_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(20,'k.m_present_route_setting_description_live_accessory_item_full_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(21,'k.m_present_route_setting_description_event_mining_point_ranking_reward_default',NULL,'k.m_present_route_setting_description_event_mining_point_ranking_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(22,'k.m_present_route_setting_description_event_mining_voltage_ranking_reward_default',NULL,'k.m_present_route_setting_description_event_mining_voltage_ranking_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(23,'k.m_present_route_setting_description_event_coop_point_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(24,'k.m_present_route_setting_description_trade_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(25,'k.m_present_route_setting_description_event_coop_global_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(26,'k.m_present_route_setting_description_event_coop_period_total_ranking_reward_default','k.m_present_route_setting_description_event_coop_period_total_ranking_reward_1','k.m_present_route_setting_description_event_coop_period_total_ranking_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(27,'k.m_present_route_setting_description_event_coop_daily_ranking_reward_default','k.m_present_route_setting_description_event_coop_daily_ranking_reward_reward_1','k.m_present_route_setting_description_event_coop_daily_ranking_reward_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(28,'k.m_present_route_setting_description_tower_clear_reward_default',NULL,NULL,'k.m_present_route_setting_description_tower_clear_reward_3',NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(29,'k.m_present_route_setting_description_tower_progress_reward_default',NULL,NULL,'k.m_present_route_setting_description_tower_progress_reward_3',NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(30,'k.m_present_route_setting_description_story_member_default',NULL,'k.m_present_route_setting_description_story_member_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(31,'k.m_present_route_setting_description_subscription_daily_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(32,'k.m_present_route_setting_description_subscription_continue_reward_default','k.m_present_route_setting_description_subscription_continue_reward_1','k.m_present_route_setting_description_subscription_continue_reward_2',NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(33,'k.m_present_route_setting_description_story_linkage_default','k.m_present_route_setting_description_story_linkage_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(34,'k.m_present_route_setting_description_story_linkage_addtional_default','k.m_present_route_setting_description_story_linkage_addtional_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(35,'k.m_present_route_setting_description_notice_video_reward_default','k.m_present_route_setting_description_notice_video_reward',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(36,'k.m_present_route_setting_description_member_guild_encouragement_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(37,'k.m_present_route_setting_description_member_guild_inside_ranking_reward_default','k.m_present_route_setting_description_member_guild_inside_ranking_reward_reward_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(38,'k.m_present_route_setting_description_member_guild_all_ranking_reward_default','k.m_present_route_setting_description_member_guild_all_ranking_reward_1',NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(39,'k.m_present_route_setting_description_member_guild_encouragement_achievement_reward_default',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO m_present_route_type_setting VALUES(99,'k.m_present_route_setting_description_debug_default','k.m_present_route_setting_description_debug_1','k.m_present_route_setting_description_debug_2',NULL,NULL,NULL);
+COMMIT;

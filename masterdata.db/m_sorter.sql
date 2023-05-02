@@ -1,0 +1,32 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_sorter(
+  sorter_scene INTEGER NOT NULL,
+  sorter_category INTEGER NOT NULL,
+  pattern_id INTEGER NOT NULL,
+  default_order INTEGER NOT NULL,
+  button_type INTEGER NOT NULL,
+  button_style INTEGER NOT NULL,
+  column_constraint INTEGER NOT NULL,
+  PRIMARY KEY (sorter_scene)
+);
+INSERT INTO m_sorter VALUES(1,1,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(2,2,1,1,3,8,1);
+INSERT INTO m_sorter VALUES(3,1,2,2,3,7,3);
+INSERT INTO m_sorter VALUES(4,4,1,2,3,8,1);
+INSERT INTO m_sorter VALUES(5,5,1,1,3,8,3);
+INSERT INTO m_sorter VALUES(6,5,2,1,3,8,3);
+INSERT INTO m_sorter VALUES(7,5,3,1,3,8,3);
+INSERT INTO m_sorter VALUES(10,1,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(11,1,11,1,3,7,3);
+INSERT INTO m_sorter VALUES(12,1,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(13,6,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(14,6,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(15,6,2,2,3,7,3);
+INSERT INTO m_sorter VALUES(16,6,2,2,3,7,3);
+INSERT INTO m_sorter VALUES(17,6,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(18,1,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(19,1,1,2,3,7,3);
+INSERT INTO m_sorter VALUES(20,1,12,2,3,7,3);
+INSERT INTO m_sorter VALUES(21,7,1,1,3,8,1);
+COMMIT;

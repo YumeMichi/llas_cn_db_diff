@@ -1,0 +1,66 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_info_trigger_scene(
+  scene_id INTEGER NOT NULL,
+  info_trigger_type INTEGER NOT NULL,
+  display_priority INTEGER NOT NULL,
+  PRIMARY KEY (scene_id, info_trigger_type)
+);
+INSERT INTO m_info_trigger_scene VALUES(12,1,1);
+INSERT INTO m_info_trigger_scene VALUES(12,2,2);
+INSERT INTO m_info_trigger_scene VALUES(12,3,3);
+INSERT INTO m_info_trigger_scene VALUES(12,6,4);
+INSERT INTO m_info_trigger_scene VALUES(46,7,1);
+INSERT INTO m_info_trigger_scene VALUES(46,13,2);
+INSERT INTO m_info_trigger_scene VALUES(46,14,3);
+INSERT INTO m_info_trigger_scene VALUES(37,1,1);
+INSERT INTO m_info_trigger_scene VALUES(39,4,1);
+INSERT INTO m_info_trigger_scene VALUES(32,5,1);
+INSERT INTO m_info_trigger_scene VALUES(20,6,1);
+INSERT INTO m_info_trigger_scene VALUES(16,6,1);
+INSERT INTO m_info_trigger_scene VALUES(14,6,1);
+INSERT INTO m_info_trigger_scene VALUES(22,6,1);
+INSERT INTO m_info_trigger_scene VALUES(26,6,1);
+INSERT INTO m_info_trigger_scene VALUES(29,2,1);
+INSERT INTO m_info_trigger_scene VALUES(36,2,1);
+INSERT INTO m_info_trigger_scene VALUES(12,9,98);
+INSERT INTO m_info_trigger_scene VALUES(47,8,1);
+INSERT INTO m_info_trigger_scene VALUES(47,10,2);
+INSERT INTO m_info_trigger_scene VALUES(23,11,1);
+INSERT INTO m_info_trigger_scene VALUES(23,12,2);
+INSERT INTO m_info_trigger_scene VALUES(23,41,3);
+INSERT INTO m_info_trigger_scene VALUES(46,15,4);
+INSERT INTO m_info_trigger_scene VALUES(58,17,1);
+INSERT INTO m_info_trigger_scene VALUES(12,7,5);
+INSERT INTO m_info_trigger_scene VALUES(12,13,6);
+INSERT INTO m_info_trigger_scene VALUES(12,14,7);
+INSERT INTO m_info_trigger_scene VALUES(12,19,99);
+INSERT INTO m_info_trigger_scene VALUES(60,18,1);
+INSERT INTO m_info_trigger_scene VALUES(60,20,2);
+INSERT INTO m_info_trigger_scene VALUES(64,24,9);
+INSERT INTO m_info_trigger_scene VALUES(12,23,97);
+INSERT INTO m_info_trigger_scene VALUES(64,22,9);
+INSERT INTO m_info_trigger_scene VALUES(64,25,10);
+INSERT INTO m_info_trigger_scene VALUES(64,26,11);
+INSERT INTO m_info_trigger_scene VALUES(72,27,1);
+INSERT INTO m_info_trigger_scene VALUES(72,29,2);
+INSERT INTO m_info_trigger_scene VALUES(72,31,9);
+INSERT INTO m_info_trigger_scene VALUES(73,32,1);
+INSERT INTO m_info_trigger_scene VALUES(1,28,1);
+INSERT INTO m_info_trigger_scene VALUES(1,30,1);
+INSERT INTO m_info_trigger_scene VALUES(12,30,5);
+INSERT INTO m_info_trigger_scene VALUES(12,33,1);
+INSERT INTO m_info_trigger_scene VALUES(12,34,1);
+INSERT INTO m_info_trigger_scene VALUES(78,35,6);
+INSERT INTO m_info_trigger_scene VALUES(78,36,5);
+INSERT INTO m_info_trigger_scene VALUES(78,37,2);
+INSERT INTO m_info_trigger_scene VALUES(78,38,3);
+INSERT INTO m_info_trigger_scene VALUES(78,39,1);
+INSERT INTO m_info_trigger_scene VALUES(78,40,4);
+INSERT INTO m_info_trigger_scene VALUES(78,42,7);
+INSERT INTO m_info_trigger_scene VALUES(12,43,8);
+INSERT INTO m_info_trigger_scene VALUES(79,44,1);
+INSERT INTO m_info_trigger_scene VALUES(79,45,2);
+INSERT INTO m_info_trigger_scene VALUES(12,47,100);
+INSERT INTO m_info_trigger_scene VALUES(79,46,1);
+COMMIT;

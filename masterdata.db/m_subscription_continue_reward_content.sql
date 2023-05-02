@@ -1,0 +1,123 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_subscription_continue_reward_content(
+  reward_master_id INTEGER NOT NULL,
+  display_order INTEGER NOT NULL,
+  content_type INTEGER NOT NULL,
+  content_id INTEGER NOT NULL,
+  content_amount INTEGER NOT NULL,
+  is_paid INTEGER NOT NULL,
+  reward_content_id INTEGER NOT NULL,
+  PRIMARY KEY (reward_master_id, display_order),
+  UNIQUE (reward_content_id),
+  FOREIGN KEY (reward_master_id) REFERENCES m_subscription_continue_reward(id)
+);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001001,1,9,9024,1,1,10011);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001001,2,1,0,100,1,10012);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001002,1,9,9003,1,1,10021);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001002,2,1,0,100,1,10022);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001002,3,1,0,10,0,10023);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001003,1,9,9024,1,1,10031);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001003,2,1,0,100,1,10032);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001003,3,1,0,20,0,10033);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001004,1,9,9003,1,1,10041);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001004,2,1,0,100,1,10042);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001004,3,1,0,30,0,10043);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001005,1,9,9024,1,1,10051);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001005,2,1,0,100,1,10052);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001005,3,1,0,40,0,10053);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001006,1,9,9003,1,1,10061);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001006,2,1,0,100,1,10062);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001006,3,1,0,100,0,10063);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001007,1,9,9024,1,1,10071);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001007,2,1,0,100,1,10072);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001008,1,9,9003,1,1,10081);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001008,2,1,0,100,1,10082);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001008,3,1,0,10,0,10083);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001009,1,9,9024,1,1,10091);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001009,2,1,0,100,1,10092);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001009,3,1,0,20,0,10093);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001010,1,9,9003,1,1,10101);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001010,2,1,0,100,1,10102);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001010,3,1,0,30,0,10103);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001011,1,9,9024,1,1,10111);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001011,2,1,0,100,1,10112);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001011,3,1,0,40,0,10113);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001012,1,9,9003,1,1,10121);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001012,2,1,0,100,1,10122);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001012,3,1,0,100,0,10123);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001013,1,9,9024,1,1,10131);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001013,2,1,0,100,1,10132);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001014,1,9,9003,1,1,10141);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001014,2,1,0,100,1,10142);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001014,3,1,0,10,0,10143);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001015,1,9,9024,1,1,10151);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001015,2,1,0,100,1,10152);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001015,3,1,0,20,0,10153);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001016,1,9,9003,1,1,10161);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001016,2,1,0,100,1,10162);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001016,3,1,0,30,0,10163);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001017,1,9,9024,1,1,10171);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001017,2,1,0,100,1,10172);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001017,3,1,0,40,0,10173);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001018,1,9,9003,1,1,10181);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001018,2,1,0,100,1,10182);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001018,3,1,0,100,0,10183);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001019,1,9,9024,1,1,10191);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001019,2,1,0,100,1,10192);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001020,1,9,9003,1,1,10201);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001020,2,1,0,100,1,10202);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001020,3,1,0,10,0,10203);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001021,1,9,9024,1,1,10211);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001021,2,1,0,100,1,10212);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001021,3,1,0,20,0,10213);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001022,1,9,9003,1,1,10221);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001022,2,1,0,100,1,10222);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001022,3,1,0,30,0,10223);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001023,1,9,9024,1,1,10231);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001023,2,1,0,100,1,10232);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001023,3,1,0,40,0,10233);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001024,1,9,9003,1,1,10241);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001024,2,1,0,100,1,10242);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001024,3,1,0,100,0,10243);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001001,4,15,10800011,1,0,10014);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001002,4,15,10800012,1,0,10024);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001006,4,15,10800013,1,0,10064);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001012,4,15,10800014,1,0,10124);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001018,4,15,10800015,1,0,10184);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001025,1,9,9024,1,1,10251);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001025,2,1,0,100,1,10252);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001026,1,9,9003,1,1,10261);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001026,2,1,0,100,1,10262);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001026,3,1,0,10,0,10263);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001027,1,9,9024,1,1,10271);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001027,2,1,0,100,1,10272);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001027,3,1,0,20,0,10273);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001028,1,9,9003,1,1,10281);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001028,2,1,0,100,1,10282);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001028,3,1,0,30,0,10283);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001029,1,9,9024,1,1,10291);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001029,2,1,0,100,1,10292);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001029,3,1,0,40,0,10293);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001030,1,9,9003,1,1,10301);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001030,2,1,0,100,1,10302);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001030,3,1,0,100,0,10303);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001031,1,9,9024,1,1,10311);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001031,2,1,0,100,1,10312);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001032,1,9,9003,1,1,10321);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001032,2,1,0,100,1,10322);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001032,3,1,0,10,0,10323);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001033,1,9,9024,1,1,10331);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001033,2,1,0,100,1,10332);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001033,3,1,0,20,0,10333);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001034,1,9,9003,1,1,10341);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001034,2,1,0,100,1,10342);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001034,3,1,0,30,0,10343);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001035,1,9,9024,1,1,10351);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001035,2,1,0,100,1,10352);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001035,3,1,0,40,0,10353);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001036,1,9,9003,1,1,10361);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001036,2,1,0,100,1,10362);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001036,3,1,0,100,0,10363);
+INSERT INTO m_subscription_continue_reward_content VALUES(13001024,4,15,10800016,1,0,10244);
+COMMIT;

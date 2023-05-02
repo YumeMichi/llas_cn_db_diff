@@ -1,0 +1,31 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_remaining_time_text_type_setting(
+  remaining_time_text_type INTEGER NOT NULL,
+  replace_text TEXT NOT NULL,
+  expired_text TEXT NOT NULL,
+  no_limit_text TEXT NOT NULL,
+  use_tag_text INTEGER NOT NULL,
+  PRIMARY KEY (remaining_time_text_type)
+);
+INSERT INTO m_remaining_time_text_type_setting VALUES(1,'k.m_remaining_time_replace_text_default','k.m_remaining_time_expired_text_default','k.m_remaining_time_no_limit_text_default',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(2,'k.m_remaining_time_replace_text_gacha_daily_limit','k.m_remaining_time_expired_text_gacha_daily_limit','k.m_remaining_time_no_limit_text_gacha_daily_limit',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(3,'k.m_remaining_time_replace_text_lp_recover','k.m_remaining_time_expired_text_lp_recover','k.m_remaining_time_no_limit_text_lp_recover',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(4,'k.m_remaining_time_replace_text_ap_recover','k.m_remaining_time_expired_text_ap_recover','k.m_remaining_time_no_limit_text_ap_recover',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(5,'k.m_remaining_time_replace_text_shop_top_event','k.m_remaining_time_expired_text_shop_top_event','k.m_remaining_time_no_limit_text_shop_top_event',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(6,'k.m_remaining_time_replace_text_shop_item_exchange_point','k.m_remaining_time_expired_text_shop_item_exchange_point','k.m_remaining_time_no_limit_text_shop_item_exchange_point',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(7,'k.m_remaining_time_replace_text_shop_event_exchange_point','k.m_remaining_time_expired_text_shop_event_exchange_point','k.m_remaining_time_no_limit_text_shop_event_exchange_point',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(8,'k.m_remaining_time_replace_text_default_no_tag','k.m_remaining_time_expired_text_default_no_tag','k.m_remaining_time_no_limit_text_default_no_tag',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(9,'k.m_remaining_time_replace_text_shiny_quartz_limit','k.m_remaining_time_expired_text_shiny_quartz_limit','k.m_remaining_time_no_limit_text_shiny_quartz_limit',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(10,'k.m_remaining_time_replace_text_default','k.m_remaining_time_expired_text_default','k.m_remaining_time_no_limit_text_default',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(11,'k.m_remaining_time_replace_text_default','k.m_remaining_time_expired_text_default','k.m_remaining_time_no_limit_text_default',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(12,'k.m_remaining_time_replace_text_default','k.m_remaining_time_expired_text_default','k.m_remaining_time_no_limit_text_default',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(13,'k.m_remaining_time_replace_text_default','k.m_remaining_time_expired_text_default','k.m_remaining_time_no_limit_text_default',1);
+INSERT INTO m_remaining_time_text_type_setting VALUES(14,'k.m_remaining_time_replace_text_event_story_history_free','k.m_remaining_time_expired_text_event_story_history_free','k.m_remaining_time_no_limit_text_event_story_history_free',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(15,'k.m_remaining_time_replace_text_trade_monthly_limit','k.m_remaining_time_expired_text_trade_monthly_limit','k.m_remaining_time_no_limit_text_trade_monthly_limit',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(16,'k.m_remaining_time_replace_text_tower_free_play_count_recovery','k.m_remaining_time_expired_text_tower_free_play_count_recovery','k.m_remaining_time_no_limit_text_tower_free_play_count_recovery',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(17,'k.m_remaining_time_replace_text_tower_free_play_count_clickable_recovery','k.m_remaining_time_expired_text_tower_free_play_count_clickable_recovery','k.m_remaining_time_no_limit_text_tower_free_play_count_clickable_recovery',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(18,'k.m_remaining_time_replace_subscription_free_lp_recover_reset','k.m_remaining_time_expired_subscription_free_lp_recover_reset','k.m_remaining_time_no_limit_subscription_free_lp_recover_reset',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(19,'k.m_remaining_time_replace_text_subscription_gacha_daily_limit','k.m_remaining_time_expired_text_subscription_gacha_daily_limit','k.m_remaining_time_no_limit_text_subscription_gacha_daily_limit',0);
+INSERT INTO m_remaining_time_text_type_setting VALUES(20,'k.m_remaining_time_replace_text_member_guild','k.m_remaining_time_expired_text_member_guild','k.m_remaining_time_no_limit_text_member_guild',1);
+COMMIT;

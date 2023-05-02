@@ -1,0 +1,79 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_sorter_condition_pattern_card(
+  pattern_id INTEGER NOT NULL,
+  condition INTEGER NOT NULL,
+  text TEXT NOT NULL,
+  display_index INTEGER NOT NULL,
+  is_default INTEGER NOT NULL,
+  simple_info INTEGER NOT NULL,
+  sub_category INTEGER,
+  PRIMARY KEY (pattern_id, condition),
+  FOREIGN KEY (sub_category) REFERENCES m_sorter_sub_category_type_setting(sub_category)
+);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,1,'k.m_sorter_level',0,1,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,4,'k.m_sorter_rarity',1,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,5,'k.m_sorter_parameter1',2,0,3,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,6,'k.m_sorter_parameter2',3,0,2,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,7,'k.m_sorter_parameter3',4,0,4,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,8,'k.m_sorter_active_skill_origin',5,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,9,'k.m_sorter_passive_skill_origin',6,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,12,'k.m_sorter_passive_skill_additional',7,0,5,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,25,'k.m_sorter_active_skill_level',8,0,10,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,26,'k.m_sorter_passive_skill_level',9,0,11,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,3,'k.m_sorter_card_name',10,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,13,'k.m_sorter_acquisition_time',11,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,2,'k.m_sorter_card_id',12,0,6,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,15,'k.m_sorter_passive_skill_additional_count_max',13,0,7,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,21,'k.m_sorter_member_id',14,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,22,'k.m_sorter_grade',15,0,8,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,24,'k.m_sorter_love_level',16,0,9,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,27,'k.m_sorter_unlock_cell',17,0,12,2);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,19,'k.m_sorter_deck_live',18,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(1,20,'k.m_sorter_deck_lesson',19,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(2,4,'k.m_sorter_rarity',0,1,1,NULL);
+INSERT INTO m_sorter_condition_pattern_card VALUES(2,16,'k.m_sorter_roll',1,0,1,NULL);
+INSERT INTO m_sorter_condition_pattern_card VALUES(2,17,'k.m_sorter_passive_skill_origin_level',2,0,1,NULL);
+INSERT INTO m_sorter_condition_pattern_card VALUES(2,18,'k.m_sorter_passive_skill_additional_rank',3,0,1,NULL);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,15,'k.m_sorter_passive_skill_additional_count_max',0,1,7,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,1,'k.m_sorter_level',1,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,4,'k.m_sorter_rarity',2,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,5,'k.m_sorter_parameter1',3,0,3,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,6,'k.m_sorter_parameter2',4,0,2,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,7,'k.m_sorter_parameter3',5,0,4,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,8,'k.m_sorter_active_skill_origin',6,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,9,'k.m_sorter_passive_skill_origin',7,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,12,'k.m_sorter_passive_skill_additional',8,0,5,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,25,'k.m_sorter_active_skill_level',9,0,10,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,26,'k.m_sorter_passive_skill_level',10,0,11,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,3,'k.m_sorter_card_name',11,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,13,'k.m_sorter_acquisition_time',12,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,2,'k.m_sorter_card_id',13,0,6,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,21,'k.m_sorter_member_id',14,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,22,'k.m_sorter_grade',15,0,8,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,24,'k.m_sorter_love_level',16,0,9,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,27,'k.m_sorter_unlock_cell',17,0,12,2);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,19,'k.m_sorter_deck_live',18,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(11,20,'k.m_sorter_deck_lesson',19,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,1,'k.m_sorter_level',0,1,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,4,'k.m_sorter_rarity',1,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,5,'k.m_sorter_parameter1',2,0,3,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,6,'k.m_sorter_parameter2',3,0,2,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,7,'k.m_sorter_parameter3',4,0,4,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,8,'k.m_sorter_active_skill_origin',5,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,9,'k.m_sorter_passive_skill_origin',6,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,12,'k.m_sorter_passive_skill_additional',7,0,5,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,25,'k.m_sorter_active_skill_level',8,0,10,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,26,'k.m_sorter_passive_skill_level',9,0,11,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,3,'k.m_sorter_card_name',10,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,13,'k.m_sorter_acquisition_time',11,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,2,'k.m_sorter_card_id',12,0,6,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,15,'k.m_sorter_passive_skill_additional_count_max',13,0,7,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,21,'k.m_sorter_member_id',14,0,1,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,22,'k.m_sorter_grade',15,0,8,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,24,'k.m_sorter_love_level',16,0,9,1);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,27,'k.m_sorter_unlock_cell',17,0,12,2);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,19,'k.m_sorter_deck_live',18,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,20,'k.m_sorter_deck_lesson',19,0,1,3);
+INSERT INTO m_sorter_condition_pattern_card VALUES(12,23,'k.m_sorter_tower_play_count',20,0,1,3);
+COMMIT;

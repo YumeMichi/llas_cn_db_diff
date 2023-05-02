@@ -1,0 +1,9 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_event_mining_bonus_type_setting(
+  bonus_type INTEGER NOT NULL,
+  icon_color INTEGER NOT NULL,
+  bonus_name TEXT NOT NULL,
+  PRIMARY KEY (bonus_type)
+);
+COMMIT;

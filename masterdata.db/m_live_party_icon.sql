@@ -1,0 +1,52 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_live_party_icon(
+  id INTEGER NOT NULL,
+  asset_path TEXT NOT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO m_live_party_icon VALUES(1,'{9');
+INSERT INTO m_live_party_icon VALUES(2,'fD');
+INSERT INTO m_live_party_icon VALUES(3,'+r');
+INSERT INTO m_live_party_icon VALUES(4,'18');
+INSERT INTO m_live_party_icon VALUES(5,')+');
+INSERT INTO m_live_party_icon VALUES(6,'eA');
+INSERT INTO m_live_party_icon VALUES(7,'\''');
+INSERT INTO m_live_party_icon VALUES(8,'J/');
+INSERT INTO m_live_party_icon VALUES(9,'hK');
+INSERT INTO m_live_party_icon VALUES(10,'&w');
+INSERT INTO m_live_party_icon VALUES(11,'K(');
+INSERT INTO m_live_party_icon VALUES(12,'Cd');
+INSERT INTO m_live_party_icon VALUES(13,'N)');
+INSERT INTO m_live_party_icon VALUES(14,'6o');
+INSERT INTO m_live_party_icon VALUES(15,'_5');
+INSERT INTO m_live_party_icon VALUES(16,'UB');
+INSERT INTO m_live_party_icon VALUES(17,';~');
+INSERT INTO m_live_party_icon VALUES(18,'2w');
+INSERT INTO m_live_party_icon VALUES(19,'%7');
+INSERT INTO m_live_party_icon VALUES(20,'`<');
+INSERT INTO m_live_party_icon VALUES(21,'FM');
+INSERT INTO m_live_party_icon VALUES(22,'PW');
+INSERT INTO m_live_party_icon VALUES(23,'SE');
+INSERT INTO m_live_party_icon VALUES(24,'9M');
+INSERT INTO m_live_party_icon VALUES(25,'YR');
+INSERT INTO m_live_party_icon VALUES(26,'fZ');
+INSERT INTO m_live_party_icon VALUES(27,'iV');
+INSERT INTO m_live_party_icon VALUES(28,'$>');
+INSERT INTO m_live_party_icon VALUES(29,'N;');
+INSERT INTO m_live_party_icon VALUES(30,'W}');
+INSERT INTO m_live_party_icon VALUES(31,'W;');
+INSERT INTO m_live_party_icon VALUES(32,'ZQ');
+INSERT INTO m_live_party_icon VALUES(33,'+l');
+INSERT INTO m_live_party_icon VALUES(34,'WZ');
+INSERT INTO m_live_party_icon VALUES(35,'1''');
+INSERT INTO m_live_party_icon VALUES(36,'I9');
+INSERT INTO m_live_party_icon VALUES(37,'d8');
+INSERT INTO m_live_party_icon VALUES(38,'pV');
+INSERT INTO m_live_party_icon VALUES(39,'`g');
+INSERT INTO m_live_party_icon VALUES(40,'In');
+INSERT INTO m_live_party_icon VALUES(41,'NZ');
+INSERT INTO m_live_party_icon VALUES(42,'/|');
+INSERT INTO m_live_party_icon VALUES(43,'C6');
+INSERT INTO m_live_party_icon VALUES(44,'(#');
+COMMIT;

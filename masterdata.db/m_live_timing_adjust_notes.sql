@@ -1,0 +1,62 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_live_timing_adjust_notes(
+  note_id INTEGER NOT NULL,
+  timing_msec INTEGER NOT NULL,
+  rail INTEGER NOT NULL,
+  note_type INTEGER NOT NULL,
+  note_action INTEGER NOT NULL,
+  gimmick_id INTEGER NOT NULL,
+  wave_id INTEGER NOT NULL,
+  is_normal_note INTEGER NOT NULL,
+  PRIMARY KEY (note_id, note_type)
+);
+INSERT INTO m_live_timing_adjust_notes VALUES(1,6800,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(2,9200,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(3,11600,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(4,14000,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(5,16400,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(6,18800,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(7,21200,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(8,23600,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(9,26000,1,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(10,28400,2,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(11,30800,1,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(12,33200,2,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(13,35600,1,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(14,38000,2,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(15,40400,1,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(16,42800,2,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(17,45200,1,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(18,47600,2,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(19,50000,1,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(20,52400,2,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(21,54800,1,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(22,57200,2,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(23,59600,1,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(24,62000,2,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(25,64400,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(26,66800,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(27,69200,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(28,71600,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(29,74000,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(30,76400,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(31,78800,1,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(32,81200,2,1,1,0,0,1);
+INSERT INTO m_live_timing_adjust_notes VALUES(33,83600,1,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(34,86000,2,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(35,88400,1,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(36,90800,2,1,4,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(37,93200,1,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(38,95600,2,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(39,98000,1,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(40,100400,2,1,5,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(41,102800,1,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(42,105200,2,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(43,107600,1,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(44,110000,2,1,7,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(45,112400,1,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(46,114800,2,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(47,117200,1,1,6,0,0,0);
+INSERT INTO m_live_timing_adjust_notes VALUES(48,119600,2,1,6,0,0,0);
+COMMIT;

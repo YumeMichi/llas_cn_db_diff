@@ -1,0 +1,26 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_event_se(
+  id INTEGER NOT NULL,
+  path TEXT NOT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO m_event_se VALUES(1,'se_010_0095');
+INSERT INTO m_event_se VALUES(2,'se_010_0096');
+INSERT INTO m_event_se VALUES(3,'se_010_0097');
+INSERT INTO m_event_se VALUES(4,'se_010_0098');
+INSERT INTO m_event_se VALUES(5,'se_010_0116');
+INSERT INTO m_event_se VALUES(6,'se_010_0118');
+INSERT INTO m_event_se VALUES(7,'se_010_0137');
+INSERT INTO m_event_se VALUES(8,'se_010_0119');
+INSERT INTO m_event_se VALUES(9,'se_010_0122');
+INSERT INTO m_event_se VALUES(10,'se_010_0124');
+INSERT INTO m_event_se VALUES(11,'se_010_0127');
+INSERT INTO m_event_se VALUES(12,'se_010_0129');
+INSERT INTO m_event_se VALUES(13,'se_010_0132');
+INSERT INTO m_event_se VALUES(14,'se_010_0137');
+INSERT INTO m_event_se VALUES(16,'se_010_0117');
+INSERT INTO m_event_se VALUES(17,'se_010_0104');
+INSERT INTO m_event_se VALUES(18,'se_010_0149');
+INSERT INTO m_event_se VALUES(19,'se_010_0105');
+COMMIT;

@@ -1,0 +1,69 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_live_stage(
+  id INTEGER NOT NULL,
+  stage_model_asset_path TEXT NOT NULL,
+  stage_name TEXT NOT NULL,
+  scene_name TEXT NOT NULL,
+  stage_thumbnail_asset_path TEXT NOT NULL,
+  stage_background_asset_path TEXT NOT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO m_live_stage VALUES(1000101,'@+','k.m_dic_stage_name_bg0001_01_s1','bg0001_01_s1','YI','!g');
+INSERT INTO m_live_stage VALUES(1000201,'d<','k.m_dic_stage_name_bg0002_01_s1','bg0002_01_s1','|W','rI');
+INSERT INTO m_live_stage VALUES(1000301,'Ac','k.m_dic_stage_name_bg0003_01_s1','bg0003_01_s1','.6','CD');
+INSERT INTO m_live_stage VALUES(1000401,'YQ','k.m_dic_stage_name_bg0004_01_s1','bg0004_01_s1','Tj','V;');
+INSERT INTO m_live_stage VALUES(1000501,'CX','k.m_dic_stage_name_bg0005_01_s1','bg0005_01_s1','Nk','/~');
+INSERT INTO m_live_stage VALUES(1000601,'=T','k.m_dic_stage_name_bg0006_01_s1','bg0006_01_s1','Me','K/');
+INSERT INTO m_live_stage VALUES(1000602,'0Bn','k.m_dic_stage_name_bg0006_02_s1','bg0006_02_s1','f}v','&9^');
+INSERT INTO m_live_stage VALUES(1000603,'OtE','k.m_dic_stage_name_bg0006_03_s1','bg0006_03_s1','\ka','''RN');
+INSERT INTO m_live_stage VALUES(1000604,'eNV','k.m_dic_stage_name_bg0006_04_s1','bg0006_04_s1','wn`','MB7');
+INSERT INTO m_live_stage VALUES(1000610,'hL','k.m_dic_stage_name_bg0006_10_s1','bg0006_10_s1','d}','eC');
+INSERT INTO m_live_stage VALUES(1000701,'s$','k.m_dic_stage_name_bg0007_01_s1','bg0007_01_s1','''=','{E');
+INSERT INTO m_live_stage VALUES(1000702,'4.','k.m_dic_stage_name_bg0007_02_s1','bg0007_02_s1','I.','z<');
+INSERT INTO m_live_stage VALUES(1000703,'bo{','k.m_dic_stage_name_bg0007_03_s1','bg0007_03_s1','''=','{E');
+INSERT INTO m_live_stage VALUES(1000710,'dH','k.m_dic_stage_name_bg0007_10_s1','bg0007_10_s1','\','^K');
+INSERT INTO m_live_stage VALUES(1000801,'nT','k.m_dic_stage_name_bg0008_01_s1','bg0008_01_s1','3T','0');
+INSERT INTO m_live_stage VALUES(1000810,'bW','k.m_dic_stage_name_bg0008_10_s1','bg0008_10_s1','*$','==');
+INSERT INTO m_live_stage VALUES(1000901,']IS','k.m_dic_stage_name_bg0009_01_s1','bg0009_01_s1','<C(','sf,');
+INSERT INTO m_live_stage VALUES(1001001,'NJY','k.m_dic_stage_name_bg0010_01_s1','bg0010_01_s1','Qj;','|I<');
+INSERT INTO m_live_stage VALUES(1001101,'`:','k.m_dic_stage_name_bg0011_01_s1','bg0011_01_s1','2a','df');
+INSERT INTO m_live_stage VALUES(1001201,'/Yd','k.m_dic_stage_name_bg0012_01_s1','bg0012_01_s1','bg5',':5h');
+INSERT INTO m_live_stage VALUES(1001301,'8"V','k.m_dic_stage_name_bg0013_01_s1','bg0013_01_s1','>@n','|[y');
+INSERT INTO m_live_stage VALUES(1001401,'-z','k.m_dic_stage_name_bg0014_01_s1','bg0014_01_s1','SD',':8');
+INSERT INTO m_live_stage VALUES(1001501,'!9/','k.m_dic_stage_name_bg0015_01_s1','bg0015_01_s1','!D9','lE+');
+INSERT INTO m_live_stage VALUES(1001601,'BZ9','k.m_dic_stage_name_bg0016_01_s1','bg0016_01_s1','Vd~','mwj');
+INSERT INTO m_live_stage VALUES(1001701,'geK','k.m_dic_stage_name_bg0017_01_s1','bg0017_01_s1','\T0','+wx');
+INSERT INTO m_live_stage VALUES(1001801,',Zn','k.m_dic_stage_name_bg0018_01_s1','bg0018_01_s1','r}r','-,[');
+INSERT INTO m_live_stage VALUES(1001802,'YIf','k.m_dic_stage_name_bg0018_02_s1','bg0018_02_s1','Pu.','I#9');
+INSERT INTO m_live_stage VALUES(1001803,'7dr','k.m_dic_stage_name_bg0018_03_s1','bg0018_03_s1','$7M','YG:');
+INSERT INTO m_live_stage VALUES(1001901,'^x<','k.m_dic_stage_name_bg0019_01_s1','bg0019_01_s1','-}j',':YO');
+INSERT INTO m_live_stage VALUES(1002001,'YEt','k.m_dic_stage_name_bg0020_01_s1','bg0020_01_s1','nmw','),D');
+INSERT INTO m_live_stage VALUES(1002002,'89p','k.m_dic_stage_name_bg0020_02_s1','bg0020_02_s1','$j}','IpC');
+INSERT INTO m_live_stage VALUES(1002101,'m:9','k.m_dic_stage_name_bg0021_01_s1','bg0021_01_s1','(`z','1@(');
+INSERT INTO m_live_stage VALUES(1002201,'va*','k.m_dic_stage_name_bg0022_01_s1','bg0022_01_s1','r@h','5Ga');
+INSERT INTO m_live_stage VALUES(1002301,'R&','k.m_dic_stage_name_bg0023_01_s1','bg0023_01_s1','uJ','OS');
+INSERT INTO m_live_stage VALUES(1002401,':Pe','k.m_dic_stage_name_bg0024_01_s1','bg0024_01_s1','E?[','^KC');
+INSERT INTO m_live_stage VALUES(1002501,'kay','k.m_dic_stage_name_bg0025_01_s1','bg0025_01_s1','wa;','DA<');
+INSERT INTO m_live_stage VALUES(1002502,'42M','k.m_dic_stage_name_bg0025_02_s1','bg0025_02_s1','bIa','9.F');
+INSERT INTO m_live_stage VALUES(1002503,'Q?4','k.m_dic_stage_name_bg0025_03_s1','bg0025_03_s1','zx8','I=y');
+INSERT INTO m_live_stage VALUES(1002504,'<Go','k.m_dic_stage_name_bg0025_04_s1','bg0025_04_s1','<VH','->&');
+INSERT INTO m_live_stage VALUES(1002505,'ogn','k.m_dic_stage_name_bg0025_05_s1','bg0025_05_s1','.r]','MCn');
+INSERT INTO m_live_stage VALUES(1002506,'l>4','k.m_dic_stage_name_bg0025_06_s1','bg0025_06_s1','(JN','mPF');
+INSERT INTO m_live_stage VALUES(1002507,'EOr','k.m_dic_stage_name_bg0025_07_s1','bg0025_07_s1','jvF','E_j');
+INSERT INTO m_live_stage VALUES(1002508,'6`\','k.m_dic_stage_name_bg0025_08_s1','bg0025_08_s1','P"s','Iji');
+INSERT INTO m_live_stage VALUES(1002509,'Y9f','k.m_dic_stage_name_bg0025_09_s1','bg0025_09_s1','hvt','8C1');
+INSERT INTO m_live_stage VALUES(1002510,'c`2','k.m_dic_stage_name_bg0025_10_s1','bg0025_10_s1','Gin','lGZ');
+INSERT INTO m_live_stage VALUES(1002511,'VD;','k.m_dic_stage_name_bg0025_11_s1','bg0025_11_s1','*h!','_^5');
+INSERT INTO m_live_stage VALUES(1002512,'k=0','k.m_dic_stage_name_bg0025_12_s1','bg0025_12_s1','Hv@','y,;');
+INSERT INTO m_live_stage VALUES(1002601,'g]<','k.m_dic_stage_name_bg0026_01_s1','bg0026_01_s1','=KL','d:l');
+INSERT INTO m_live_stage VALUES(1002602,'Pn{','k.m_dic_stage_name_bg0026_02_s1','bg0026_02_s1','rj{','uwG');
+INSERT INTO m_live_stage VALUES(1002701,'hTM','k.m_dic_stage_name_bg0027_01_s1','bg0027_01_s1','r|@','AU=');
+INSERT INTO m_live_stage VALUES(1002702,'"<l','k.m_dic_stage_name_bg0027_02_s1','bg0027_02_s1','(pr','="$');
+INSERT INTO m_live_stage VALUES(1002801,'GG~','k.m_dic_stage_name_bg0028_01_s1','bg0028_01_s1','B."','}7p');
+INSERT INTO m_live_stage VALUES(1002901,',8I','k.m_dic_stage_name_bg0029_01_s1','bg0029_01_s1','YZ3','JT8');
+INSERT INTO m_live_stage VALUES(1003001,'q?!','k.m_dic_stage_name_bg0030_01_s1','bg0030_01_s1','@Hl','S9"');
+INSERT INTO m_live_stage VALUES(1003002,'$AY','k.m_dic_stage_name_bg0030_02_s1','bg0030_02_s1','j`I','_zC');
+INSERT INTO m_live_stage VALUES(1003101,'{KO','k.m_dic_stage_name_bg0031_01_s1','bg0031_01_s1','&*+','1kq');
+INSERT INTO m_live_stage VALUES(1003301,'R?%','k.m_dic_stage_name_bg0033_01_s1','bg0033_01_s1','&:/','mSH');
+COMMIT;

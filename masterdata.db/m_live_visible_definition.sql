@@ -1,0 +1,88 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE m_live_visible_definition(
+  live_m_id INTEGER NOT NULL,
+  safe_swing_bone INTEGER,
+  live_mixer_base_mode INTEGER,
+  live_enable_skin_merge INTEGER,
+  PRIMARY KEY (live_m_id),
+  FOREIGN KEY (live_m_id) REFERENCES m_live(live_id)
+);
+INSERT INTO m_live_visible_definition VALUES(9999,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10001,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10002,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10003,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10004,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10005,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10008,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10009,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10010,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10011,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10012,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10013,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10014,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10015,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10016,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(10017,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10021,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10036,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10037,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10043,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10049,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10060,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10062,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10068,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10071,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10077,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(10089,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11001,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11002,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11003,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11004,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11005,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11006,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11007,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11008,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11009,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11010,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11011,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11012,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11013,0,2,1);
+INSERT INTO m_live_visible_definition VALUES(11014,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(11015,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11017,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11030,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11042,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11044,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11046,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11049,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11072,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11078,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(11079,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12001,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12002,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12003,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12004,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12005,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12006,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12007,1,1,0);
+INSERT INTO m_live_visible_definition VALUES(12008,1,1,1);
+INSERT INTO m_live_visible_definition VALUES(12009,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12010,NULL,1,0);
+INSERT INTO m_live_visible_definition VALUES(12021,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12022,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12023,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12024,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12025,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12026,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12027,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12028,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12029,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12030,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12034,0,2,1);
+INSERT INTO m_live_visible_definition VALUES(12037,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12038,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12056,1,2,0);
+INSERT INTO m_live_visible_definition VALUES(12058,NULL,2,0);
+INSERT INTO m_live_visible_definition VALUES(12059,NULL,2,0);
+COMMIT;
