@@ -1,0 +1,55 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE skill_effect_dependency(
+  asset_path TEXT NOT NULL,
+  dependency TEXT NOT NULL,
+  PRIMARY KEY (asset_path, dependency)
+);
+INSERT INTO skill_effect_dependency VALUES('9]3','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('@AC','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('$|%','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('n}%','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('qix','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('l=a','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('PH#','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('fsQ','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('?f8','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('@]Q','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('|r~','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('t(+','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('kpW','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('8S}','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('J?|','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('|rk','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('cf%','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('FfV','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('viy','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('@>G','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('qy\','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('v((','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('e65','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('R7l','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('ye?','§<NQ');
+INSERT INTO skill_effect_dependency VALUES(':Ra','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('YFs','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('.gr','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('=1y','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('LK(','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('{5O','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('IpT','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('u^W','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('P6(','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('&]@','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('O*@','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('PQ{','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('UB6','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('b+s','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('S05','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('HGI','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('QXO','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('&yN','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('2_S','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('USv','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('^4V','§<NQ');
+INSERT INTO skill_effect_dependency VALUES('yQC','§<NQ');
+COMMIT;

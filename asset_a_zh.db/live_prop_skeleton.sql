@@ -1,0 +1,19 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE live_prop_skeleton(
+  asset_path TEXT NOT NULL,
+  pack_name TEXT NOT NULL,
+  head INTEGER NOT NULL,
+  size INTEGER NOT NULL,
+  key1 INTEGER NOT NULL,
+  key2 INTEGER NOT NULL,
+  PRIMARY KEY (asset_path)
+);
+INSERT INTO live_prop_skeleton VALUES('}cb','5uje16',0,46989,-1042309542,1656640468);
+INSERT INTO live_prop_skeleton VALUES('''PE','z30kcu',0,394379,1590020317,218234487);
+INSERT INTO live_prop_skeleton VALUES('5$k','rkzml9',0,299100,2124497841,-815886340);
+INSERT INTO live_prop_skeleton VALUES('P~i','j0ffvy',0,303328,1717281380,1955412300);
+INSERT INTO live_prop_skeleton VALUES('''BJ','si5vzn',0,162992,-527853456,-562334141);
+INSERT INTO live_prop_skeleton VALUES('%?h','mgmist',0,487207,-94446212,1127837350);
+INSERT INTO live_prop_skeleton VALUES('Dss','6yn24y',0,485064,830377912,765548889);
+COMMIT;

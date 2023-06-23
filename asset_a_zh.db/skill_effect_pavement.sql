@@ -1,0 +1,55 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE skill_effect_pavement(
+  asset_path TEXT NOT NULL,
+  pavement TEXT NOT NULL,
+  PRIMARY KEY (asset_path)
+);
+INSERT INTO skill_effect_pavement VALUES('com_rank.prefab','9]3');
+INSERT INTO skill_effect_pavement VALUES('duo_2000_001.prefab','@AC');
+INSERT INTO skill_effect_pavement VALUES('duo_2000_002.prefab','$|%');
+INSERT INTO skill_effect_pavement VALUES('duo_2000_003.prefab','n}%');
+INSERT INTO skill_effect_pavement VALUES('sol_0001_001.prefab','qix');
+INSERT INTO skill_effect_pavement VALUES('sol_0002_001.prefab','l=a');
+INSERT INTO skill_effect_pavement VALUES('sol_0003_001.prefab','PH#');
+INSERT INTO skill_effect_pavement VALUES('sol_0004_001.prefab','fsQ');
+INSERT INTO skill_effect_pavement VALUES('sol_0005_001.prefab','?f8');
+INSERT INTO skill_effect_pavement VALUES('sol_0006_001.prefab','@]Q');
+INSERT INTO skill_effect_pavement VALUES('sol_0007_001.prefab','|r~');
+INSERT INTO skill_effect_pavement VALUES('sol_0008_001.prefab','t(+');
+INSERT INTO skill_effect_pavement VALUES('sol_0009_001.prefab','kpW');
+INSERT INTO skill_effect_pavement VALUES('sol_0101_001.prefab','8S}');
+INSERT INTO skill_effect_pavement VALUES('sol_0102_001.prefab','J?|');
+INSERT INTO skill_effect_pavement VALUES('sol_0103_001.prefab','|rk');
+INSERT INTO skill_effect_pavement VALUES('sol_0104_001.prefab','cf%');
+INSERT INTO skill_effect_pavement VALUES('sol_0105_001.prefab','FfV');
+INSERT INTO skill_effect_pavement VALUES('sol_0106_001.prefab','viy');
+INSERT INTO skill_effect_pavement VALUES('sol_0107_001.prefab','@>G');
+INSERT INTO skill_effect_pavement VALUES('sol_0108_001.prefab','qy\');
+INSERT INTO skill_effect_pavement VALUES('sol_0109_001.prefab','v((');
+INSERT INTO skill_effect_pavement VALUES('sol_0201_001.prefab','e65');
+INSERT INTO skill_effect_pavement VALUES('sol_0202_001.prefab','R7l');
+INSERT INTO skill_effect_pavement VALUES('sol_0203_001.prefab','ye?');
+INSERT INTO skill_effect_pavement VALUES('sol_0204_001.prefab',':Ra');
+INSERT INTO skill_effect_pavement VALUES('sol_0205_001.prefab','YFs');
+INSERT INTO skill_effect_pavement VALUES('sol_0206_001.prefab','.gr');
+INSERT INTO skill_effect_pavement VALUES('sol_0207_001.prefab','=1y');
+INSERT INTO skill_effect_pavement VALUES('sol_0208_001.prefab','LK(');
+INSERT INTO skill_effect_pavement VALUES('sol_0209_001.prefab','{5O');
+INSERT INTO skill_effect_pavement VALUES('sol_0210_001.prefab','IpT');
+INSERT INTO skill_effect_pavement VALUES('sol_0211_001.prefab','u^W');
+INSERT INTO skill_effect_pavement VALUES('sol_0212_001.prefab','P6(');
+INSERT INTO skill_effect_pavement VALUES('tri_2000_001.prefab','&]@');
+INSERT INTO skill_effect_pavement VALUES('tri_2000_002.prefab','O*@');
+INSERT INTO skill_effect_pavement VALUES('tri_2000_003.prefab','PQ{');
+INSERT INTO skill_effect_pavement VALUES('uni_0001_001.prefab','UB6');
+INSERT INTO skill_effect_pavement VALUES('uni_0002_001.prefab','b+s');
+INSERT INTO skill_effect_pavement VALUES('uni_0003_001.prefab','S05');
+INSERT INTO skill_effect_pavement VALUES('uni_0101_001.prefab','HGI');
+INSERT INTO skill_effect_pavement VALUES('uni_0102_001.prefab','QXO');
+INSERT INTO skill_effect_pavement VALUES('uni_0103_001.prefab','&yN');
+INSERT INTO skill_effect_pavement VALUES('uni_0201_001.prefab','2_S');
+INSERT INTO skill_effect_pavement VALUES('uni_0202_001.prefab','USv');
+INSERT INTO skill_effect_pavement VALUES('uni_0203_001.prefab','^4V');
+INSERT INTO skill_effect_pavement VALUES('uni_0204_001.prefab','yQC');
+COMMIT;
