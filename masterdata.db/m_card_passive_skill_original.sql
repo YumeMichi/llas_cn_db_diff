@@ -3955,4 +3955,18 @@ INSERT INTO m_card_passive_skill_original VALUES(401032006,2,1,'k.passive_skill_
 INSERT INTO m_card_passive_skill_original VALUES(401032006,3,1,'k.passive_skill_name_20125503',20125503);
 INSERT INTO m_card_passive_skill_original VALUES(401032006,4,1,'k.passive_skill_name_20125504',20125504);
 INSERT INTO m_card_passive_skill_original VALUES(401032006,5,1,'k.passive_skill_name_20125505',20125505);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,1,2,'k.passive_skill_name_20125601',20125601);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,1,1,'k.passive_skill_name_20125701',20125701);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,2,1,'k.passive_skill_name_20125702',20125702);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,3,1,'k.passive_skill_name_20125703',20125703);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,4,1,'k.passive_skill_name_20125704',20125704);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,5,1,'k.passive_skill_name_20125705',20125705);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,6,1,'k.passive_skill_name_20125706',20125706);
+INSERT INTO m_card_passive_skill_original VALUES(300053003,7,1,'k.passive_skill_name_20125707',20125707);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,1,2,'k.passive_skill_name_20125801',20125801);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,1,1,'k.passive_skill_name_20125901',20125901);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,2,1,'k.passive_skill_name_20125902',20125902);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,3,1,'k.passive_skill_name_20125903',20125903);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,4,1,'k.passive_skill_name_20125904',20125904);
+INSERT INTO m_card_passive_skill_original VALUES(302072004,5,1,'k.passive_skill_name_20125905',20125905);
 COMMIT;

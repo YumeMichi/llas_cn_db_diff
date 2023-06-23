@@ -1336,4 +1336,8 @@ INSERT INTO m_training_tree_card_voice VALUES(402062007,1,1206234);
 INSERT INTO m_training_tree_card_voice VALUES(402062007,2,1206235);
 INSERT INTO m_training_tree_card_voice VALUES(401032006,1,1103244);
 INSERT INTO m_training_tree_card_voice VALUES(401032006,2,1103245);
+INSERT INTO m_training_tree_card_voice VALUES(300053003,1,1005244);
+INSERT INTO m_training_tree_card_voice VALUES(300053003,2,1005245);
+INSERT INTO m_training_tree_card_voice VALUES(302072004,1,1207234);
+INSERT INTO m_training_tree_card_voice VALUES(302072004,2,1207235);
 COMMIT;

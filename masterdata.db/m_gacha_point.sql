@@ -157,6 +157,7 @@ INSERT INTO m_gacha_point VALUES(141,1,'k.m_gacha_point_icon_text_2002_32','k.m_
 INSERT INTO m_gacha_point VALUES(142,1,'k.m_gacha_point_icon_text_2005_32','k.m_gacha_point_icon_text_2005_28','k.m_gacha_point_icon_text_2005','[.',2,1,1683100800,1582873200,1583564400);
 INSERT INTO m_gacha_point VALUES(143,1,'k.m_gacha_point_icon_text_2004_32','k.m_gacha_point_icon_text_2004_28','k.m_gacha_point_icon_text_2004','''2',2,1,1651993200,1582873200,1583564400);
 INSERT INTO m_gacha_point VALUES(144,1,'k.m_gacha_point_icon_text_2002_32','k.m_gacha_point_icon_text_2002_28','k.m_gacha_point_icon_text_2002','bz',2,1,1683187200,1582873200,1583564400);
+INSERT INTO m_gacha_point VALUES(145,1,'k.m_gacha_point_icon_text_2000_32','k.m_gacha_point_icon_text_2000_28','k.m_gacha_point_icon_text_2000','WH',2,1,1688198400,1582873200,1583564400);
 INSERT INTO m_gacha_point VALUES(152,1,'k.m_gacha_point_icon_text_2004_32','k.m_gacha_point_icon_text_2004_28','k.m_gacha_point_icon_text_2004','''2',2,1,1652857200,1582873200,1583564400);
 INSERT INTO m_gacha_point VALUES(153,1,'k.m_gacha_point_icon_text_2004_32','k.m_gacha_point_icon_text_2004_28','k.m_gacha_point_icon_text_2004','''2',2,1,1653548400,1582873200,1583564400);
 INSERT INTO m_gacha_point VALUES(154,1,'k.m_gacha_point_icon_text_2004_32','k.m_gacha_point_icon_text_2004_28','k.m_gacha_point_icon_text_2004','''2',2,1,1654239600,1582873200,1583564400);

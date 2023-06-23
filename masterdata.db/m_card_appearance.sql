@@ -1342,4 +1342,8 @@ INSERT INTO m_card_appearance VALUES(402062007,1,'k.card_name_402062007','k.card
 INSERT INTO m_card_appearance VALUES(402062007,2,'k.card_name_awaken_402062007','k.card_name_hiragana_awaken_402062007',']r`','F)O','T4U','Vt','Card/CardTrimAuto/tex_card_402062007_1_t');
 INSERT INTO m_card_appearance VALUES(401032006,1,'k.card_name_401032006','k.card_name_hiragana_401032006',']ek','A,I','i9t','Vt','Card/CardTrimAuto/tex_card_401032006_0_t');
 INSERT INTO m_card_appearance VALUES(401032006,2,'k.card_name_awaken_401032006','k.card_name_hiragana_awaken_401032006','LI-','hZz','oOw','Vt','Card/CardTrimAuto/tex_card_401032006_1_t');
+INSERT INTO m_card_appearance VALUES(300053003,1,'k.card_name_300053003','k.card_name_hiragana_300053003','X$a','9DB','/Wp','Vt','Card/CardTrimAuto/tex_card_300053003_0_t');
+INSERT INTO m_card_appearance VALUES(300053003,2,'k.card_name_awaken_300053003','k.card_name_hiragana_awaken_300053003','ozv','=-+','?MG','Vt','Card/CardTrimAuto/tex_card_300053003_1_t');
+INSERT INTO m_card_appearance VALUES(302072004,1,'k.card_name_302072004','k.card_name_hiragana_302072004','M{-','\_X','!Ib','Vt','Card/CardTrimAuto/tex_card_302072004_0_t');
+INSERT INTO m_card_appearance VALUES(302072004,2,'k.card_name_awaken_302072004','k.card_name_hiragana_awaken_302072004','pYL','''iL','''M>','Vt','Card/CardTrimAuto/tex_card_302072004_1_t');
 COMMIT;

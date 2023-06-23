@@ -604,4 +604,6 @@ INSERT INTO m_training_tree_card_suit VALUES(402013005,1,402013005);
 INSERT INTO m_training_tree_card_suit VALUES(401023007,1,401023007);
 INSERT INTO m_training_tree_card_suit VALUES(402062007,1,402062007);
 INSERT INTO m_training_tree_card_suit VALUES(401032006,1,401032006);
+INSERT INTO m_training_tree_card_suit VALUES(300053003,1,300053003);
+INSERT INTO m_training_tree_card_suit VALUES(302072004,1,302072004);
 COMMIT;

@@ -1643,6 +1643,8 @@ INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220411
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220411/tex_banner_notice_s_2220411','Csy');
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220401/tex_banner_notice_l_2220401','57)');
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220401/tex_banner_notice_s_2220401','UI[');
+INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220402/tex_banner_notice_l_2220402','2qB');
+INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220402/tex_banner_notice_s_2220402','S,E');
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220407/tex_banner_notice_s_2220407','ce;');
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220407/tex_banner_gacha_top_2220407_1','#tX');
 INSERT INTO m_decoration_texture VALUES('Common/InlineImage/Banner/Gacha/2220407/tex_banner_gacha_text_2220407_1','Uc6');

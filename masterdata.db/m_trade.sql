@@ -278,6 +278,7 @@ INSERT INTO m_trade VALUES(2220302,1,5,140,0,20409,0,'k.trade_description_gacha_
 INSERT INTO m_trade VALUES(2220303,1,5,141,0,20410,0,'k.trade_description_gacha_point_shiny_quartz');
 INSERT INTO m_trade VALUES(2220304,1,5,142,0,20411,0,'k.trade_description_gacha_point_shiny_quartz');
 INSERT INTO m_trade VALUES(2220401,1,5,144,0,20413,0,'k.trade_description_gacha_point_shiny_quartz');
+INSERT INTO m_trade VALUES(2220402,1,5,145,0,20414,0,'k.trade_description_gacha_point_shiny_quartz');
 INSERT INTO m_trade VALUES(2220413,1,5,143,0,20416,0,'k.trade_description_gacha_point_shiny_quartz');
 INSERT INTO m_trade VALUES(2220512,1,5,152,0,20419,0,'k.trade_description_gacha_point_shiny_quartz');
 INSERT INTO m_trade VALUES(2220514,1,5,153,0,20423,0,'k.trade_description_gacha_point_shiny_quartz');

@@ -49,4 +49,5 @@ INSERT INTO m_story_main_chapter VALUES(34,3,'m.story_main_chapter_title_34','m.
 INSERT INTO m_story_main_chapter VALUES(35,3,'m.story_main_chapter_title_35','m.story_main_chapter_description_35','+$j','ci','Ay',NULL);
 INSERT INTO m_story_main_chapter VALUES(36,3,'m.story_main_chapter_title_36','m.story_main_chapter_description_36','6.Y','{B','p''',NULL);
 INSERT INTO m_story_main_chapter VALUES(37,3,'m.story_main_chapter_title_37','m.story_main_chapter_description_37','ckk',',AU','2Gz',NULL);
+INSERT INTO m_story_main_chapter VALUES(38,3,'m.story_main_chapter_title_38','m.story_main_chapter_description_38','dX(','q!','kf',NULL);
 COMMIT;

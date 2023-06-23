@@ -962,4 +962,7 @@ INSERT INTO m_training_tree_card_story_side VALUES(401023007,11,1,410230071);
 INSERT INTO m_training_tree_card_story_side VALUES(401023007,9,1,410230072);
 INSERT INTO m_training_tree_card_story_side VALUES(402062007,11,1,420620071);
 INSERT INTO m_training_tree_card_story_side VALUES(401032006,11,1,410320061);
+INSERT INTO m_training_tree_card_story_side VALUES(300053003,11,1,300530031);
+INSERT INTO m_training_tree_card_story_side VALUES(300053003,9,1,300530032);
+INSERT INTO m_training_tree_card_story_side VALUES(302072004,11,1,320720041);
 COMMIT;

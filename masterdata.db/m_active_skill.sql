@@ -3294,6 +3294,16 @@ INSERT INTO m_active_skill VALUES(10066102,1,1,10330202,'k.active_skill_name_401
 INSERT INTO m_active_skill VALUES(10066103,1,1,10330303,'k.active_skill_name_401032006','k.active_skill_description_401032006_3',150,3000,NULL,'1f');
 INSERT INTO m_active_skill VALUES(10066104,1,1,10330404,'k.active_skill_name_401032006','k.active_skill_description_401032006_4',150,3000,NULL,'1f');
 INSERT INTO m_active_skill VALUES(10066105,1,1,10330505,'k.active_skill_name_401032006','k.active_skill_description_401032006_5',150,3000,NULL,'1f');
+INSERT INTO m_active_skill VALUES(10066201,1,1,10330601,'k.active_skill_name_300053003','k.active_skill_description_300053003_1',200,1100,NULL,'''X');
+INSERT INTO m_active_skill VALUES(10066202,1,1,10330702,'k.active_skill_name_300053003','k.active_skill_description_300053003_2',200,1100,NULL,'''X');
+INSERT INTO m_active_skill VALUES(10066203,1,1,10330803,'k.active_skill_name_300053003','k.active_skill_description_300053003_3',200,1100,NULL,'''X');
+INSERT INTO m_active_skill VALUES(10066204,1,1,10330904,'k.active_skill_name_300053003','k.active_skill_description_300053003_4',200,1100,NULL,'''X');
+INSERT INTO m_active_skill VALUES(10066205,1,1,10331005,'k.active_skill_name_300053003','k.active_skill_description_300053003_5',200,1100,NULL,'''X');
+INSERT INTO m_active_skill VALUES(10066301,1,1,10331101,'k.active_skill_name_302072004','k.active_skill_description_302072004_1',150,3000,NULL,'1f');
+INSERT INTO m_active_skill VALUES(10066302,1,1,10331202,'k.active_skill_name_302072004','k.active_skill_description_302072004_2',150,3000,NULL,'1f');
+INSERT INTO m_active_skill VALUES(10066303,1,1,10331303,'k.active_skill_name_302072004','k.active_skill_description_302072004_3',150,3000,NULL,'1f');
+INSERT INTO m_active_skill VALUES(10066304,1,1,10331404,'k.active_skill_name_302072004','k.active_skill_description_302072004_4',150,3000,NULL,'1f');
+INSERT INTO m_active_skill VALUES(10066305,1,1,10331505,'k.active_skill_name_302072004','k.active_skill_description_302072004_5',150,3000,NULL,'1f');
 INSERT INTO m_active_skill VALUES(121010101,1,1,121010101,'k.active_skill_name_102101001','k.active_skill_description_102101001_1',100,3000,NULL,'lm');
 INSERT INTO m_active_skill VALUES(121010102,1,1,121010102,'k.active_skill_name_102101001','k.active_skill_description_102101001_2',100,3000,NULL,'lm');
 INSERT INTO m_active_skill VALUES(121010103,1,1,121010103,'k.active_skill_name_102101001','k.active_skill_description_102101001_3',100,3000,NULL,'lm');

@@ -462,4 +462,7 @@ INSERT INTO m_daily_theater_archive_client VALUES('zh',1000450,2023,4,27,'《快
 INSERT INTO m_daily_theater_archive_client VALUES('zh',1000451,2023,4,28,'《严重抗议！》',1682611200);
 INSERT INTO m_daily_theater_archive_client VALUES('zh',1000452,2023,4,29,'《集中精神！》',1682697600);
 INSERT INTO m_daily_theater_archive_client VALUES('zh',1000453,2023,4,30,'《好开心……》',1682784000);
+INSERT INTO m_daily_theater_archive_client VALUES('zh',1000454,2023,5,1,'《为训练而训练？》',1682870400);
+INSERT INTO m_daily_theater_archive_client VALUES('zh',1000455,2023,5,2,'《继续嗨翻天！》',1682956800);
+INSERT INTO m_daily_theater_archive_client VALUES('zh',1000456,2023,5,3,'《琴梨也是！》',1683043200);
 COMMIT;

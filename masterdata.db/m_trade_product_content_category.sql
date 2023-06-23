@@ -765,6 +765,8 @@ INSERT INTO m_trade_product_content_category VALUES(0,3,3,201042002);
 INSERT INTO m_trade_product_content_category VALUES(0,2,3,402083005);
 INSERT INTO m_trade_product_content_category VALUES(0,2,3,402013005);
 INSERT INTO m_trade_product_content_category VALUES(0,3,3,400072006);
+INSERT INTO m_trade_product_content_category VALUES(0,2,3,300053003);
+INSERT INTO m_trade_product_content_category VALUES(0,3,3,302072004);
 INSERT INTO m_trade_product_content_category VALUES(0,2,3,400033005);
 INSERT INTO m_trade_product_content_category VALUES(0,2,3,400043006);
 INSERT INTO m_trade_product_content_category VALUES(0,2,3,400063005);

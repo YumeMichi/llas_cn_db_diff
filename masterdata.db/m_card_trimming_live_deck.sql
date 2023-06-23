@@ -1334,4 +1334,8 @@ INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_4020620
 INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_402062007_1_t','l^Y');
 INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_401032006_0_t','Ixl');
 INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_401032006_1_t','Ze4');
+INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_300053003_0_t','kwD');
+INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_300053003_1_t','c~C');
+INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_302072004_0_t','Jf3');
+INSERT INTO m_card_trimming_live_deck VALUES('Card/CardTrimAuto/tex_card_302072004_1_t','y\|');
 COMMIT;

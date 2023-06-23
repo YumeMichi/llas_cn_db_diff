@@ -1885,6 +1885,7 @@ INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220411/tex_b
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220620/tex_banner_gacha_sticker_2220620','@>1');
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220621/tex_banner_gacha_sticker_2220621','c$|');
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220401/tex_banner_gacha_sticker_2220401','3)\');
+INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220402/tex_banner_gacha_sticker_2220402','_u3');
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220405/tex_banner_gacha_sticker_2220405','''$4');
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220407/tex_banner_gacha_sticker_2220407','61_');
 INSERT INTO m_inline_image VALUES('Common/InlineImage/Banner/Gacha/2220410/tex_banner_gacha_sticker_2220410','F"H');

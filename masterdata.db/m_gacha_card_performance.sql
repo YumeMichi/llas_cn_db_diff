@@ -239,6 +239,7 @@ INSERT INTO m_gacha_card_performance VALUES(300052001,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(300052002,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(300053001,'vo_ca_3000530016','k.gacha_vo_ca_3000530016',']"');
 INSERT INTO m_gacha_card_performance VALUES(300053002,'vo_ca_3000530026','k.gacha_vo_ca_3000530026',']"');
+INSERT INTO m_gacha_card_performance VALUES(300053003,'vo_ca_3000530036','k.gacha_vo_ca_3000530036',']"');
 INSERT INTO m_gacha_card_performance VALUES(300062001,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(300062002,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(300063001,'vo_ca_3000630016','k.gacha_vo_ca_3000630016','hJ');
@@ -322,6 +323,7 @@ INSERT INTO m_gacha_card_performance VALUES(302063002,'vo_ca_3020630026','k.gach
 INSERT INTO m_gacha_card_performance VALUES(302072001,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(302072002,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(302072003,NULL,NULL,NULL);
+INSERT INTO m_gacha_card_performance VALUES(302072004,NULL,NULL,NULL);
 INSERT INTO m_gacha_card_performance VALUES(302073001,'vo_ca_3020730016','k.gacha_vo_ca_3020730016','7k');
 INSERT INTO m_gacha_card_performance VALUES(302073002,'vo_ca_3020730026','k.gacha_vo_ca_3020730026','7k');
 INSERT INTO m_gacha_card_performance VALUES(302082001,NULL,NULL,NULL);

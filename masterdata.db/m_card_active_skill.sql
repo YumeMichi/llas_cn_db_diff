@@ -3329,4 +3329,14 @@ INSERT INTO m_card_active_skill VALUES(401032006,2,'k.active_skill_name_40103200
 INSERT INTO m_card_active_skill VALUES(401032006,3,'k.active_skill_name_401032006',10066103);
 INSERT INTO m_card_active_skill VALUES(401032006,4,'k.active_skill_name_401032006',10066104);
 INSERT INTO m_card_active_skill VALUES(401032006,5,'k.active_skill_name_401032006',10066105);
+INSERT INTO m_card_active_skill VALUES(300053003,1,'k.active_skill_name_300053003',10066201);
+INSERT INTO m_card_active_skill VALUES(300053003,2,'k.active_skill_name_300053003',10066202);
+INSERT INTO m_card_active_skill VALUES(300053003,3,'k.active_skill_name_300053003',10066203);
+INSERT INTO m_card_active_skill VALUES(300053003,4,'k.active_skill_name_300053003',10066204);
+INSERT INTO m_card_active_skill VALUES(300053003,5,'k.active_skill_name_300053003',10066205);
+INSERT INTO m_card_active_skill VALUES(302072004,1,'k.active_skill_name_302072004',10066301);
+INSERT INTO m_card_active_skill VALUES(302072004,2,'k.active_skill_name_302072004',10066302);
+INSERT INTO m_card_active_skill VALUES(302072004,3,'k.active_skill_name_302072004',10066303);
+INSERT INTO m_card_active_skill VALUES(302072004,4,'k.active_skill_name_302072004',10066304);
+INSERT INTO m_card_active_skill VALUES(302072004,5,'k.active_skill_name_302072004',10066305);
 COMMIT;
